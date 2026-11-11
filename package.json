@@ -1,0 +1,22 @@
+{
+  "id": "org.mass4.turian.android.validation",
+  "version": "1.0.0",
+  "displayName": "Android Vulkan Validation (common)",
+  "description": "License and version pin shared by the per-architecture Khronos Vulkan validation layer bricks.",
+  "author": "MASS4",
+  "license": "Apache-2.0",
+  "clientOnly": true,
+  "categories": ["turian:platform"],
+  "keywords": ["android", "vulkan", "validation"],
+  "exclude": [
+    "Brick~/Tools",
+    ".github",
+    ".gitignore",
+    ".local",
+    ".script-*.py",
+    ".script-*.cs",
+    ".script-*.sh",
+    ".script-*.ps1"
+  ],
+  "bake": "none"
+}

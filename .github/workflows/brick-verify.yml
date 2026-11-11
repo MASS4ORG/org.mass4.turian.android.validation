@@ -1,0 +1,9 @@
+name: Verify brick
+on: {push: {branches: [main]}, pull_request: {}}
+permissions: {contents: read}
+jobs:
+  verify:
+    uses: MASS4ORG/brick-workflows/.github/workflows/verify.yml@v1
+    with:
+      twin: false
+      precast: false

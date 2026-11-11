@@ -1,0 +1,9 @@
+{
+  "Version": "1.4.363.1",
+  "Source": "https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases/download/vulkan-sdk-1.4.363.1/android-binaries-1.4.363.1.zip",
+  "ArchiveSha256": "2C17B00A95B18FD63244B27332EF86F45C9269769F798A6261CE80B869C41AF4",
+  "Sha256": {
+    "arm64-v8a/libVkLayer_khronos_validation.so": "7D36B66E72FD11270FBA96DE10002256BA95C8408047A8167E636673C16760AE",
+    "x86_64/libVkLayer_khronos_validation.so": "171AB2CA9D8441806411D08A867F892824F84D811F4976506E1658ED1E931294"
+  }
+}
